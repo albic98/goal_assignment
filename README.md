@@ -1,4 +1,6 @@
 This repository contains custom ROS2 packages developed for use with Gazebo simulations for navigation over a TCP/IP connection. The packages were tested with the ROS2 Humble distribution.
+Use any mobile app that can create a client which can then connect to the simulation.
+Used application: TCP UDP Server & Client
 
 ## Getting started
 Clone the repository and build the workspace:
