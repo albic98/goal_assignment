@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>location_package</name>
+  <version>0.0.0</version>
+  <description>Package for coordinate logging and mission execution</description>
+
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_export_depend>rosidl_default_generators</build_export_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>python3-setuptools</exec_depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>nav2_msgs</depend>
+  <depend>action_msgs</depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
