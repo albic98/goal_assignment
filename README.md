@@ -16,8 +16,8 @@ To run the system, all three nodes must be launched in separate terminal windows
 
 ```
     ros2 run tcp_client_package tcp_client_node
-    ros2 run location_package goal_executor.py
-    ros2 run location_package coordinate_logger.py
+    ros2 run location_package goal_executor
+    ros2 run location_package coordinate_logger
 ```
 
    Or run launch file: 
