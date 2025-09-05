@@ -4,12 +4,11 @@ This repository contains custom ROS2 packages developed for use with Gazebo simu
 Clone the repository and build the workspace:
 
 ```
-   git clone -- repo name --
+   git clone https://github.com/albic98/goal_assignment.git
    cd workspace_folder
    source /opt/ros/<distro>/setup.bash
    colcon build --symlink-install
    source install/setup.bash
-
 ```
 
 ## Usage
