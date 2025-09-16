@@ -6,8 +6,9 @@ Use any mobile app that can create a client which can then connect to the simula
 ## Getting started
 Clone the repository and build the workspace:
 ```
+    cd workspace_folder/src
    git clone https://github.com/albic98/goal_assignment.git
-   cd workspace_folder
+   cd ..
    source /opt/ros/<distro>/setup.bash
    colcon build --symlink-install
    source install/setup.bash
